@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans:300);
+
+*
+{
+    box-sizing: border-box;
+}
+
+b
+{
+    text-transform: lowercase;
+    font-size: 0.625em;
+    display: block;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body 
+{
+    background: #19111d;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+#keyboard
+{
+    margin-top: 60px;
+}
+.row 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+.key 
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 5px #green;
+
+}
+
+.key span 
+{
+
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+h1 
+{
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    box-shadow: 4px solid red;
+
+}
+
+i
+{
+
+    color: red;
+    display: block;
+}
+
+.text 
+{
+
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 120px;
+    font-size: 17px;
+}
+#red 
+{
+    color: red;
+}
