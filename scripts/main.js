@@ -108,7 +108,7 @@ $(document).ready(function() {
         audio.play();
     })
     $(document).bind('keydown', 'v', function() {
-        audio = new Audio(['songs/victoryfanfare.mp3']);
+        audio = new Audio(['songs/victory fanfare.mp3']);
         audio.play();
     })
     $(document).bind('keydown', 'b', function() {
