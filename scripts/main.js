@@ -5,17 +5,15 @@
 //function keyboard (e)
 
 
-$(document).ready(function(a) {
+$(document).ready(function() {
     var audio=null;
-    //    var pad=[a,z,e,r,t,y,u,i,o,p,q,s,d,f,g,h,j,k,l,m,w,x,c,v,b,n];
 
-    $(document).bind('keydown', 'a', function testA(a) {
+    $(document).bind('keydown', 'a', function (a) {
         if(audio != null){
             audio.pause();
         }
 
-//        audio = new Audio(['songs/knee.mp3']);
-        audio=a.getAttribute("data-song");
+        audio = new Audio(['songs/knee.mp3']);
         audio.play();
     })
 
