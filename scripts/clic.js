@@ -1,202 +1,238 @@
-//
-//keyboard();
-//
-//
-//function keyboard (e)
+function auClic(clic) {
+    var audio = null
+    var letter = clic.id;
+    switch (letter) {
 
-
-$(document).ready(function () {
-    var audio = null;
-
-    $(document).bind('keydown', 'a', function (a) {
+    case 'a':
         if (audio != null) {
             audio.pause();
         }
 
         audio = new Audio(['songs/knee.mp3']);
         audio.play();
-    })
 
+        break;
 
-    $(document).bind('keydown', 'z', function () {
+    case 'z':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/zelda.mp3']);
         audio.play();
-        $('.row:nth-child(1) .key:nth-child(1)').toggleClass('active');
 
-    })
-
-    $(document).bind('keydown', 'e', function () {
+        break;
+    case 'e':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/ea.mp3']);
         audio.play();
-    })
 
-    $(document).bind('keydown', 'r', function () {
+        break;
+    case 'r':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/rickrolled.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 't', function () {
+
+        break;
+    case 't':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/trololo.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'y', function () {
+
+        break;
+    case 'y':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/yeah.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'u', function () {
+
+        break;
+    case 'u':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/utini_jawas.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'i', function () {
+
+        break;
+    case 'i':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/internetporn.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'o', function () {
+
+        break;
+    case 'o':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/over9000.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'p', function () {
+
+        break;
+    case 'p':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/pokemon.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'q', function () {
-        audio.pause();
-    })
 
-    $(document).bind('keydown', 's', function () {
+        break;
+    case 'q':
+        audio = null;
+
+
+        break;
+    case 's':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/shutup.mp3']);
         audio.play();
-    })
 
-    $(document).bind('keydown', 'd', function () {
+        break;
+    case 'd':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/demacia.mp3']);
         audio.play();
-    })
 
-    $(document).bind('keydown', 'f', function () {
+        break;
+    case 'f':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/frozen.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'g', function () {
+
+        break;
+    case 'g':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/power.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'h', function () {
+
+        break;
+    case 'h':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/hallelujah.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'j', function () {
+
+        break;
+    case 'j':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/jeff.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'k', function () {
+
+        break;
+    case 'k':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/kamehameha.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'l', function () {
+
+        break;
+    case 'l':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/leviosa.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'm', function () {
+
+        break;
+    case 'm':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/mario.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'w', function () {
+
+        break;
+    case 'w':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/whatfox.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'x', function () {
+
+        break;
+    case 'x':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/xfiles.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'c', function () {
+
+        break;
+    case 'c':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/challenge_accepted.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'v', function () {
+
+        break;
+    case 'v':
         if (audio != null) {
             audio.pause();
         }
-        audio = new Audio(['songs/victoryfanfare.mp3']);
+
+        audio = new Audio(['songs/victory fanfare.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'b', function () {
+
+        break;
+    case 'b':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/batman.mp3']);
         audio.play();
-    })
-    $(document).bind('keydown', 'n', function () {
+
+        break;
+    case 'n':
         if (audio != null) {
             audio.pause();
         }
+
         audio = new Audio(['songs/nyancat.mp3']);
         audio.play();
-    });
 
-});
-
-
+        break;
+    }
+}
